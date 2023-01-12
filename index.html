@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./images/Xiaomi-Redmi-Note-9S.png" type="image/x-icon">
+    <title>Mobile Search App</title>
+</head>
+<body>
+<div class="center">
+<div class="wrapper">
+    <div class="search-content">
+        <input type="search" placeholder="Enter mobile name" id="search-item">
+        <button id="search-btn">Search</button>
+    </div>
+</div>
+<div id="buttons">
+    <button class="btn-value" onclick="filterProduct('all')">All </button>
+    <button class="btn-value" onclick="filterProduct('Iphone')">Iphone </button>
+    <button class="btn-value" onclick="filterProduct('Samsung')">Samsung </button>
+    <button class="btn-value" onclick="filterProduct('Xiaomi')">Xiaomi </button>
+    <button class="btn-value" onclick="filterProduct('Oppo')">Oppo </button>
+    <button class="btn-value" onclick="filterProduct('Redmi')">Redmi </button>
+</div>
+</div>
+<div>
+    <div id="mobile"></div>
+</div>    
+
+<script src="app.js"></script>
+</body>
+</html>
